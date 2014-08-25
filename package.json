@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Make png files extracted from .ipa file of iphone or ipad readable and openable.",
   "main": "index.js",
+  "bin": {
+    "iphone-png": "bin/crush.js"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
   },
@@ -16,7 +19,9 @@
     "iphone",
     "ipad",
     "open",
-    "converter"
+    "converter",
+    "photoshop",
+    "pngcrush"
   ],
   "engines": {
     "node": ">=0.10.0"
@@ -29,5 +34,10 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "fs-extra": "^0.11.0",
+    "spawns": "^0.3.2",
+    "tmp": "0.0.24"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "iphone-png",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make png files extracted from .ipa file of iphone or ipad readable and openable.",
   "main": "index.js",
   "bin": {

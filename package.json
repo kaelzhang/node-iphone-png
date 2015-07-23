@@ -1,6 +1,6 @@
 {
   "name": "iphone-png",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Make png files extracted from .ipa file of iphone or ipad readable and openable.",
   "main": "index.js",
   "bin": {
@@ -36,8 +36,8 @@
     "chai": "*"
   },
   "dependencies": {
-    "fs-extra": "^0.11.0",
-    "spawns": "^0.3.2",
-    "tmp": "0.0.24"
+    "fs-extra": "^0.22.1",
+    "spawns": "^1.0.0",
+    "tmp": "0.0.26"
   }
 }
